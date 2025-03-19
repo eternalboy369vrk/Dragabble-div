@@ -1,0 +1,37 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+   
+}
+.card {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    resize: none; /* Disable default resizing */
+    overflow: auto; /* Allow scrolling */
+    position: relative; /* Position for the resize handle */
+    cursor: nwse-resize;
+}
+
+.card {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, border 0.3s, border-radius 0.3s;
+    cursor: nwse-resize; /* Cursor for resizing */
+    position: relative; /* Position for the resize handle */
+    background-size: cover;
+
+
+}
